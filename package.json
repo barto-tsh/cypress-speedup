@@ -19,6 +19,7 @@
     "cy:run:chrome": "cypress run --headless --browser chrome",
     "cy:run:firefox": "cypress run --headless --browser firefox",
     "cy:run:edge": "cypress run --headless --browser edge",
+    "cy:run:changed": "zx ./scripts/e2e.mjs",
     "version": "auto-changelog -p && git add CHANGELOG.md"
   },
   "husky": {
@@ -130,11 +131,13 @@
     "inquirer-directory": "2.2.0",
     "lint-staged": "10.5.4",
     "miragejs": "0.1.41",
+    "nodemon": "2.0.15",
     "npm-run-all": "4.1.5",
     "plop": "2.7.4",
     "prettier": "2.2.1",
     "stylelint": "13.10.0",
     "stylelint-config-recommended": "3.0.0",
-    "wait-on": "5.2.1"
+    "wait-on": "5.2.1",
+    "zx": "4.2.0"
   }
 }
