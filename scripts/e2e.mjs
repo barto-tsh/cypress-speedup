@@ -1,40 +1,54 @@
 #!/usr/bin/env zx
 
-import fs from 'fs';
+import chokidar from 'chokidar';
 
+const CY_INTEGRATION_DIR = `./cypress/integration`;
 let isRunning = false;
 
-const runTests = async (_specs) => await $`cypress run --spec ${_specs.join(',')} --headless --browser chrome`;
+const runTests = async (_specs) => {
+  if (isRunning) return;
+
+  isRunning = true;
+  try {
+    await $`cypress run --spec ${_specs.join(',')} --headless --browser chrome`;
+  } catch (e) {
+  }
+  isRunning = false;
+};
 
 const getChangedSpecs = async () => {
+  console.log(`\nChecking for changed specs...`);
   const changedFiles = await $`git diff --name-only HEAD`;
-  return changedFiles.stdout
+  const onlySpecFiles = changedFiles.stdout
     .split('\n')
-    .filter(file => file.match('.*?(?=\\.spec).*?\\.ts'))
+    .filter(file => file.match(`.*?(?=\\.spec).*?\\.ts`))
     .map(file => `./${file}`);
+  if (onlySpecFiles.length > 0) {
+    return onlySpecFiles;
+  } else {
+    console.log(`\nno changes found in *.spec.ts since last commit`);
+    return [];
+  }
 };
 
 let specs = await getChangedSpecs();
-let watchers = [];
+let watcher = chokidar.watch(CY_INTEGRATION_DIR, { persistent: true });
 
 const getChangedFilesAndRunTest = async () => {
+  if (isRunning) return;
+
   specs = await getChangedSpecs();
-  console.log(`Running tests for ${JSON.stringify(specs, null, 2)}`);
-  if (!isRunning) {
-    isRunning = true;
+  if (specs.length > 0) {
+    console.log(`Running tests for: ${JSON.stringify(specs, null, 2)}`);
     await runTests(specs);
-    isRunning = false;
   }
-  watchers.forEach(watcher => watcher.close());
-  watchers = [];
-  for (const spec of specs) {
-    watchers.push(fs.watch(spec, async () => await getChangedFilesAndRunTest()));
-  }
-  console.log(`Watching for changes...`);
+  console.log(`\nWatching for changes...`);
 };
 
+watcher.on(`change`, async () => await getChangedFilesAndRunTest());
+
 if (specs.length > 0) {
-  await getChangedFilesAndRunTest();
+  await runTests(specs);
 }
 
-
+console.log(`\nWatching for changes...`);
