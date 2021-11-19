@@ -1,0 +1,277 @@
+{
+  "count": 210,
+  "next": "https://linkshare-api.tshdev.io/resources?page=2&per_page=15",
+  "previous": null,
+  "results": [
+    {
+      "id": 673,
+      "url": "https://linkshare-api.tshdev.io/resources/673",
+      "title": "Sklonowali głos i ukradli 35 milionów dolarów z banku. Jak?",
+      "description": "Taka historia nie zdarza się codziennie. Złodzieje wykorzystali klonowanie głosu przy pomocy sztucznej inteligencji i wykorzystali technologię deepfake do przeprowadzenia napadu. Łupem padło 35 milionów dolarów pozyskane z jednego z banków w Zjednoczonych Emiratach Arabskich.",
+      "resource_url": "https://ohmydev.pl/post/sklonowali-glos-i-ukradli-35-milionow-dolarow-z-banku-jak-2nid",
+      "thumbnail": "https://linkshare-api.tshdev.io/assets/media/resources/dztest/185e1968bceed7ff97c76f80e7a47197.jpg",
+      "user": {
+        "username": "dztest",
+        "id": 128,
+        "full_name": "dztest",
+        "avatar": null
+      },
+      "tags": ["react"],
+      "user_vote": null,
+      "score": -1,
+      "created_at": "2021-10-18T15:16:22.397316Z"
+    },
+    {
+      "id": 672,
+      "url": "https://linkshare-api.tshdev.io/resources/672",
+      "title": "Apple Unleashed już dzisiaj - jak oglądać?",
+      "description": "Spodziewamy się nowych komputerów Mac z układem krzemowym Apple – i być może nowych AirPods. A wszystko zaczyna się o 18:30!",
+      "resource_url": "https://ohmydev.pl/post/apple-unleashed-juz-dzisiaj-jak-ogladac-43a4",
+      "thumbnail": "https://linkshare-api.tshdev.io/assets/media/resources/dztest/cl-d-en-hero.jpg",
+      "user": {
+        "username": "dztest",
+        "id": 128,
+        "full_name": "dztest",
+        "avatar": null
+      },
+      "tags": ["apple"],
+      "user_vote": null,
+      "score": 1,
+      "created_at": "2021-10-18T15:11:09.535715Z"
+    },
+    {
+      "id": 671,
+      "url": "https://linkshare-api.tshdev.io/resources/671",
+      "title": "test",
+      "description": "test2",
+      "resource_url": "https://tsh.io/",
+      "thumbnail": null,
+      "user": {
+        "username": "dztest",
+        "id": 128,
+        "full_name": "dztest",
+        "avatar": null
+      },
+      "tags": [],
+      "user_vote": null,
+      "score": 0,
+      "created_at": "2021-10-14T07:07:58.460946Z"
+    },
+    {
+      "id": 670,
+      "url": "https://linkshare-api.tshdev.io/resources/670",
+      "title": "test",
+      "description": "test2",
+      "resource_url": "https://tsh.io/",
+      "thumbnail": null,
+      "user": {
+        "username": "dztest",
+        "id": 128,
+        "full_name": "dztest",
+        "avatar": null
+      },
+      "tags": [],
+      "user_vote": null,
+      "score": 1,
+      "created_at": "2021-10-14T07:07:56.947019Z"
+    },
+    {
+      "id": 669,
+      "url": "https://linkshare-api.tshdev.io/resources/669",
+      "title": "Test entry",
+      "description": "Test description",
+      "resource_url": "https://tsh.io/",
+      "thumbnail": null,
+      "user": {
+        "username": "dztest",
+        "id": 128,
+        "full_name": "dztest",
+        "avatar": null
+      },
+      "tags": [],
+      "user_vote": null,
+      "score": 0,
+      "created_at": "2021-10-14T06:37:14.771965Z"
+    },
+    {
+      "id": 668,
+      "url": "https://linkshare-api.tshdev.io/resources/668",
+      "title": "Ta sama beczka, nie na sprzedaz",
+      "description": "Kolega z linka nizej was oklamal, beczka nie jest na sprzedaż. To moja ukochana beczka",
+      "resource_url": "https://i.picsum.photos/id/34/200/200.jpg?hmac=XRWBHNng_p1BDrqV2tGH2Fbk12qD7KRzoufu_JIJW20",
+      "thumbnail": "https://linkshare-api.tshdev.io/assets/media/resources/Arturito2/34-200x200_DiJeeue.jpg",
+      "user": {
+        "username": "Arturito2",
+        "id": 172,
+        "full_name": "Arturito2",
+        "avatar": null
+      },
+      "tags": ["beczka", "nienasprzedaz", "uwolnicbeczke", "kiedyzapytajbeczke", "gonciarzoddejbeczke"],
+      "user_vote": null,
+      "score": 2,
+      "created_at": "2021-10-13T13:41:31.298350Z"
+    },
+    {
+      "id": 667,
+      "url": "https://linkshare-api.tshdev.io/resources/667",
+      "title": "Mam na sprzedaz beczke",
+      "description": "To jest bardzo dobra beczka, najlepsza beczka, SEO majster plakal jak pozycjonowal, beczka nowa nie śmigana <3",
+      "resource_url": "https://i.picsum.photos/id/34/200/200.jpg?hmac=XRWBHNng_p1BDrqV2tGH2Fbk12qD7KRzoufu_JIJW20",
+      "thumbnail": "https://linkshare-api.tshdev.io/assets/media/resources/Arturito2/34-200x200_aF8Qat6.jpg",
+      "user": {
+        "username": "Arturito2",
+        "id": 172,
+        "full_name": "Arturito2",
+        "avatar": null
+      },
+      "tags": [],
+      "user_vote": null,
+      "score": 1,
+      "created_at": "2021-10-13T13:40:12.891038Z"
+    },
+    {
+      "id": 666,
+      "url": "https://linkshare-api.tshdev.io/resources/666",
+      "title": "Mam na sprzedaz beczke",
+      "description": "To jest bardzo dobra beczka, najlepsza beczka, SEO majster plakal jak pozycjonowal, beczka nowa nie śmigana <3",
+      "resource_url": "https://i.picsum.photos/id/34/200/200.jpg?hmac=XRWBHNng_p1BDrqV2tGH2Fbk12qD7KRzoufu_JIJW20",
+      "thumbnail": "https://linkshare-api.tshdev.io/assets/media/resources/Arturito2/34-200x200.jpg",
+      "user": {
+        "username": "Arturito2",
+        "id": 172,
+        "full_name": "Arturito2",
+        "avatar": null
+      },
+      "tags": [],
+      "user_vote": null,
+      "score": 0,
+      "created_at": "2021-10-13T13:40:10.723073Z"
+    },
+    {
+      "id": 665,
+      "url": "https://linkshare-api.tshdev.io/resources/665",
+      "title": "Lemme check this feature",
+      "description": "does it work or not?",
+      "resource_url": "https://i.picsum.photos/id/34/200/200.jpg?hmac=XRWBHNng_p1BDrqV2tGH2Fbk12qD7KRzoufu_JIJW20",
+      "thumbnail": "https://linkshare-api.tshdev.io/assets/media/resources/2arturito/34-200x200.jpg",
+      "user": {
+        "username": "2arturito",
+        "id": 171,
+        "full_name": "2arturito",
+        "avatar": null
+      },
+      "tags": ["test", "google"],
+      "user_vote": null,
+      "score": 1,
+      "created_at": "2021-10-13T13:34:12.922804Z"
+    },
+    {
+      "id": 664,
+      "url": "https://linkshare-api.tshdev.io/resources/664",
+      "title": "OVH znowu leży...",
+      "description": "Strony oparte na OVH nie działają, ich admin panel nie działa. Niby tylko naprawa, ale trzeba przyznać, że niesamowita godzina na to... “Maintenance is planned for 13/Oct/21 9:00 AM to 10:30 AM ( UTC+2). No impact expected, device will be isolated before the change”",
+      "resource_url": "https://ohmydev.pl/post/ovh-znowu-lezy-k5a",
+      "thumbnail": "https://linkshare-api.tshdev.io/assets/media/resources/dztest/R_tWnwn7_400x400.png",
+      "user": {
+        "username": "dztest",
+        "id": 128,
+        "full_name": "dztest",
+        "avatar": null
+      },
+      "tags": ["js", "jestAkcja", "tsh", "Ovh"],
+      "user_vote": null,
+      "score": 2,
+      "created_at": "2021-10-13T13:08:10.670354Z"
+    },
+    {
+      "id": 663,
+      "url": "https://linkshare-api.tshdev.io/resources/663",
+      "title": "Smartfony z Androidem niemalże cały czas śledzą swoich użytkowników",
+      "description": "Nowe, uniwersyteckie badanie z UK potwierdza to, co widzieliśmy już wiele razy... Ciekawe, czy Google ma w ogóle zamiar coś z tym zrobić",
+      "resource_url": "https://ohmydev.pl/post/smartfony-z-androidem-niemalze-caly-czas-sledza-swoich-uzytkownikow-4h5i",
+      "thumbnail": "https://linkshare-api.tshdev.io/assets/media/resources/dztest/Android__malware.jpg",
+      "user": {
+        "username": "dztest",
+        "id": 128,
+        "full_name": "dztest",
+        "avatar": null
+      },
+      "tags": ["test", "android", "apple"],
+      "user_vote": null,
+      "score": 1,
+      "created_at": "2021-10-13T12:00:48.522896Z"
+    },
+    {
+      "id": 662,
+      "url": "https://linkshare-api.tshdev.io/resources/662",
+      "title": "$10M to optimize Kubernetes: CAST AI raises Series A and extends support to top 3 cloud providers",
+      "description": "To deliver on our promise of fully automated cloud cost optimization for Kubernetes, we raised $10 million in a Series A round led by the San Francisco-based Cota Capital, with Samsung Next and other investors participating.",
+      "resource_url": "https://dev.to/castai/10m-to-optimize-kubernetes-cast-ai-raises-series-a-and-extends-support-to-top-3-cloud-providers-52dj",
+      "thumbnail": "https://linkshare-api.tshdev.io/assets/media/resources/dztest/jefs7is2ojtben5f2t5f.jpeg",
+      "user": {
+        "username": "dztest",
+        "id": 128,
+        "full_name": "dztest",
+        "avatar": null
+      },
+      "tags": ["kubernetes"],
+      "user_vote": null,
+      "score": -2,
+      "created_at": "2021-10-13T08:13:35.234180Z"
+    },
+    {
+      "id": 661,
+      "url": "https://linkshare-api.tshdev.io/resources/661",
+      "title": "Conditional types – TypeScript – typy warunkowe",
+      "description": "Typy warunkowe (conditional types) to prawdopodobnie najtrudniejsza część TypeScripta. Jednocześnie, jak to zwykle bywa, jest to element najpotężniejszy i dający ogromne możliwości tworzenia rozbudowanych i zaawansowanych typów, dzięki którym Twoje aplikacje staną się jeszcze bardziej bezpieczne.",
+      "resource_url": "https://typeofweb.com/conditional-types-typescript-typy-warunkowe",
+      "thumbnail": "https://linkshare-api.tshdev.io/assets/media/resources/dztest/264-800x600.jpg",
+      "user": {
+        "username": "dztest",
+        "id": 128,
+        "full_name": "dztest",
+        "avatar": null
+      },
+      "tags": ["typescript"],
+      "user_vote": null,
+      "score": 0,
+      "created_at": "2021-10-13T08:12:14.214579Z"
+    },
+    {
+      "id": 660,
+      "url": "https://linkshare-api.tshdev.io/resources/660",
+      "title": "Względne postrzeganie czasu: model matematyczny",
+      "description": "Wielu osobom wydaje się, że im stajemy się starsi, tym czas szybciej płynie. Mamy tysiące wspomnień ze wczesnej młodości, a później trudno nam odróżnić rok od roku. Ale czy aby na pewno tylko nam się wydaje? Czy to zjawisko jest jakoś opisane i uzasadnione?",
+      "resource_url": "https://typeofweb.com/wzgledne-postrzeganie-czasu-model-matematyczny",
+      "thumbnail": "https://linkshare-api.tshdev.io/assets/media/resources/dztest/797-800x600.jpg",
+      "user": {
+        "username": "dztest",
+        "id": 128,
+        "full_name": "dztest",
+        "avatar": null
+      },
+      "tags": ["123", "matematyka", "czas"],
+      "user_vote": null,
+      "score": 0,
+      "created_at": "2021-10-13T08:11:09.160886Z"
+    },
+    {
+      "id": 659,
+      "url": "https://linkshare-api.tshdev.io/resources/659",
+      "title": "Który hosting jest najszybszy? 9 rzeczy, które mają największe znaczenie",
+      "description": "Hosting to jeden z najważniejszych filarów strony internetowej. To w dużej mierze od niego właśnie zależy, czy będzie ona szybka, stabilna i bezpieczna. A jak wybrać serwer, który faktycznie pozwoli Twojej witrynie „wrzucić wyższy bieg”? Zobacz, jakie elementy wpływają na szybkość serwera.",
+      "resource_url": "https://typeofweb.com/ktory-hosting-jest-najszybszy-9-rzeczy-ktore-maja-najwieksze-znaczenie",
+      "thumbnail": "https://linkshare-api.tshdev.io/assets/media/resources/dztest/pasted-image-0-14.png",
+      "user": {
+        "username": "dztest",
+        "id": 128,
+        "full_name": "dztest",
+        "avatar": null
+      },
+      "tags": ["ovh", "hosting"],
+      "user_vote": null,
+      "score": 0,
+      "created_at": "2021-10-13T08:03:46.438234Z"
+    }
+  ]
+}

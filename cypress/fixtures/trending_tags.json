@@ -1,0 +1,43 @@
+{
+  "count": 284,
+  "next": "https://linkshare-api.tshdev.io/tags?ordering=-num_res&page=2&per_page=9",
+  "previous": null,
+  "results": [
+    {
+      "tag": "javascript",
+      "num_res": 50
+    },
+    {
+      "tag": "react",
+      "num_res": 22
+    },
+    {
+      "tag": "morawiecki",
+      "num_res": 19
+    },
+    {
+      "tag": "nowy ład",
+      "num_res": 18
+    },
+    {
+      "tag": "rząd",
+      "num_res": 18
+    },
+    {
+      "tag": "pieniądze",
+      "num_res": 18
+    },
+    {
+      "tag": "async",
+      "num_res": 13
+    },
+    {
+      "tag": "crud",
+      "num_res": 11
+    },
+    {
+      "tag": "chrome",
+      "num_res": 10
+    }
+  ]
+}
