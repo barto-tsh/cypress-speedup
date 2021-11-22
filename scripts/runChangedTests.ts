@@ -16,14 +16,14 @@ const runTests = async (_specs: string[]) => {
 
   isRunning = true;
   try {
-    await $`cypress run --spec ${_specs.join(',')} --headless --browser chrome`;
+    await $`cypress run --headless --browser chrome --spec ${_specs.join(',')}`;
   } catch (e) {
   }
   isRunning = false;
 };
 
 const getChangedSpecs = async () => {
-  console.log(chalk.bgYellow(`\nChecking for changed specs...`));
+  console.log(`\nChecking for changed specs...`);
   $.verbose = false;
   const changedFiles = await $`git diff --name-only HEAD`;
   $.verbose = true;
@@ -34,7 +34,7 @@ const getChangedSpecs = async () => {
   if (onlySpecFiles.length > 0) {
     return onlySpecFiles;
   } else {
-    console.log(`\nNo changes found in *.spec.ts since last commit`);
+    console.log(`\nNo changes was found since last commit`);
     return [];
   }
 };
@@ -49,11 +49,9 @@ const getChangedFilesAndRunTest = async () => {
     console.log(JSON.stringify(specs, null, 2));
     await runTests(specs);
   }
-  console.log(chalk.bgCyan(`\nWatching for changes...`));
+  console.log(chalk.bgCyan(`\nWaiting for changes...`));
 };
 
 watcher.on(`change`, async () => await getChangedFilesAndRunTest());
 
 wrapTopLevelAwait(getChangedFilesAndRunTest);
-
-console.log(chalk.bgCyan(`\nWatching for changes...`));
